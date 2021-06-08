@@ -54,7 +54,7 @@ nav {
     height: 80px;
     background: #fff;
     border-bottom: 1px solid transparent;
-    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .5);
+    box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .3);
     position: fixed;
     top: 0;
     z-index: 100;
@@ -177,7 +177,6 @@ nav {
     margin-top: 60px;
     justify-content: space-around;
 }
-
 .articulo {
     width: 29%;
     background: #fff;
@@ -186,7 +185,6 @@ nav {
     padding: 45px 30px 60px 30px;
     transition: 0.5s;
 }
-
 .articulo:hover {
     box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
 }
@@ -196,6 +194,15 @@ nav {
 .p-img img{
     width: 150px;
     height: 150px;
+    padding: 10px 10px 10px 10px;
+}
+#contacto{
+    width: 50px;
+    height: 50px;
+}
+#mapa{
+    width: 1000px;
+    height: 450px;
     padding: 10px 10px 10px 10px;
 }
 .articulo>img {
@@ -545,7 +552,39 @@ footer {
         margin-bottom: 40px;
     }
 }
+input[type=text],input[type=password],textarea{
+  width: 500px; 
+  height: 39px; 
+  /*-webkit-border-radius: 0px 4px 4px 0px/5px 5px 4px 4px;*/ 
+  -moz-border-radius: 4px 4px 4px 4px/0px 0px 4px 4px; 
+  border-radius: 4px 4px 4px 4px/5px 5px 4px 4px; 
+  background-color: #fff; 
+  -webkit-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  -moz-box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  box-shadow: 1px 2px 5px rgba(0,0,0,.09); 
+  border: solid 1px #cbc9c9;
+  margin-left: 0px;
+  margin-top: 13px; 
+  padding-left: 10px;
+}
+input[type="submit"]{
+    width:500px;
+    padding:8px 16px;
+    margin-top:32px;
+    border:1px solid #000;
+    border-radius:5px;
+    display:block;
+    color:#fff;
+    background-color:#000;
+} 
+form input[type="submit"]:hover{
+    cursor:pointer;
+}
 
+#msg{
+    width: 500px;
+    height: 200px;
+}
 @media screen and (max-width:600px) {
     .titulo {
         font-size: 35px;

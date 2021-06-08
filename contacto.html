@@ -34,32 +34,55 @@
         <div class="contenedor1">
             <h1 class="titulo">Contáctanos</h1>
             <div class="contenedor-articulo">
-                <div class="p-img">
-                    <img src="img/mapas.png" alt="mapa">
-                    <div>
-                       <p width="100px">
+                <div style="float: right;">
+                    <div style="float: left;">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d933.9982841984815!2d-100.82308551638717!3d20.5474617166528!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842cbac7790a403f%3A0x96817125a1b8d7c!2sSalvador%20Ortega%20103%2C%20Las%20Aves%2C%2038017%20Celaya%2C%20Gto.!5e0!3m2!1ses-419!2smx!4v1623191763660!5m2!1ses-419!2smx" width="600" height="450" style="border:0; padding: 10px 10px 10px 10px;" allowfullscreen=""loading="lazy"></iframe>
+                    </div>
+                    <div >
+                       <p>
                         Nuestras oficinas están ubicadas en calle Salvador Ortega #103, Las Aves, Celaya, Guanajuato, México. Sin embargo, puedes contactar con nosotros y desarrollar tu aplicación. Solo mándanos un mensaje contándonos tu idea o tus requisitos y te  haremos una cotización gratuita a la brevedad.
-                        </p></br>
-                        <div style="clear:both">
+                        </p>
+                        <div style="float: right;" class="p-img">
                             <div >
-                                <img src="img/smartphone.png" alt="">
-                                <p>
-                                    Llámanos:
-                                    - México: +52 (461) 2917743
+                                <img id="contacto" src="img/smartphone.png" alt="">
+                                 <p>
+                                        Llámanos: México: +52 (461) 2917743
                                 </p>
                             </div>
-                            <div>
-                                <img src="img/enviar-correo.png" alt="">
+                            <div style="float: right;">
+                                 <img id="contacto" src="img/enviar-correo.png" alt="">
                                 <p>
-                                    Escríbenos:
-                                    - México: devmobile@solutions.com
-                                </p>        
+                                        Escríbenos: México: devmobile@solutions.com
+                                 </p>        
                             </div>
                         </div> 
-                    </div>    
+                    </div>   
                 </div>
             </div>
-            <h1 class="titulo">Escríbenos</h1>
+            <div class="contenedor1">
+                <h1 class="titulo">Escríbenos</h1>
+                <div align="center">
+                    <form action="" method="post">
+                         <ul>
+                              <li>
+                                <input type="text" id="name" name="user_name" placeholder="Nombre">
+                              </li>
+                              <li>
+                                <input type="text" id="mail" name="user_mail" placeholder="Email">
+                              </li>
+                              <li>
+                                <input type="text" id="telefono" name="user_tel" placeholder="Telefono">
+                              </li>
+                              <li>
+                                <textarea id="msg" name="user_message" placeholder="Mensaje"></textarea>
+                              </li>
+                              <li>
+                                  <input type="submit" name="Enviar" value="Enviar datos"/>
+                              </li>
+                        </ul>     
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
     <footer>
