@@ -408,7 +408,7 @@ footer {
 
 
 
-.social-media img{
+.social-media a{
     font-size: 20px;
     display: inline-block;
     color: #adb6c7;
@@ -422,7 +422,13 @@ footer {
     text-align: center;
     transition: all ease-in-out .3s;
     margin-right: 5px;
-
+    flex-direction: row;
+}
+.social-media img{
+    display: inline-block;
+    flex-direction: row;
+    width: 38px;
+    height: 38px;
 }
 .map-footer img{
     font-size: 20px;
