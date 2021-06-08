@@ -154,7 +154,7 @@ nav {
     text-transform: uppercase;
     font-size: 14px;
     border-radius: 5px;
-    box-shadow: 0 8px 32px rgba(31, 222, 130, .46);
+    box-shadow: 0 8px 32px rgba(31, 222, 130, .7);
 }
 
 .titulo {
@@ -371,13 +371,14 @@ nav {
 /* footer */
 
 footer {
-    background: #f2f2f2;
+    background: #4dffd2;
     padding: 60px 0;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin: auto;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, .9);
 }
 
 .partFooter {
