@@ -196,6 +196,12 @@ nav {
     height: 150px;
     padding: 10px 10px 10px 10px;
 }
+
+.p-img p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
 #contacto{
     width: 50px;
     height: 50px;
